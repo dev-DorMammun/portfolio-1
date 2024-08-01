@@ -37,7 +37,7 @@ nav li {
     border:none;
     padding: 16px 35px;
     font-family: "Open Sans", sans-serif;
-    border-radius: 3px;
+    border-radius: 10px;
     font-size: 16px;
 }
 header {
@@ -89,7 +89,7 @@ header {
     margin-top: 10px;
     padding: 70px;
     padding-top: 5px;
-    padding-bottom: 0px;
+    padding-bottom: 90px;
     font-size: 18px;
     color: rgb(66, 66, 66);
 }
@@ -105,12 +105,10 @@ header {
 .cell {
     text-align: center;
 }
-main {
-    max-width: 1150px;
-    margin: 0 auto;
-}
 .used-container {
     display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
 }
 .used {
     padding: 30px;
@@ -129,4 +127,62 @@ main {
 }
 .used-des {
     color:rgb(66, 66, 66);
+}
+.edu-cont {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+    gap: 50px;
+}
+.edu-typ {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.edu-info {
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+}
+.edu-col-2 {
+    margin-top: 315px;
+}
+.edu-des {
+    padding: 20px;
+}
+.footer {
+    margin: 0 100px;
+    margin-top: 100px;
+    background-color: #fff0e4;
+    display: flex;
+    gap: 70px;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 100px 50px;
+    border-radius: 20px;
+}
+.connect {
+    padding: 40px;
+}
+.input {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: solid white;
+    border-radius: 10px;
+}
+.message {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: solid white;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+.connect-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.copy {
+    text-align: center;
+    font-size: 10px;
 }
