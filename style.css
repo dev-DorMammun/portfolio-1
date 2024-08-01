@@ -1,0 +1,89 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.left-title {
+    font-weight: 800;
+    color: black;
+    font-size: 35px;
+}
+.dor {
+    color:rgb(219, 130, 46);
+}
+nav  ul {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color:rgb(66, 66, 66);
+}
+nav li {
+    margin-right: 50px;
+    list-style: none;
+}
+.hire{
+    font-weight: 700;
+    background-color: rgb(250, 92, 30);
+    color: white;
+    border:none;
+    padding: 16px 35px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 3px;
+    font-size: 16px;
+}
+header {
+    background-color: #fff8f3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pp {
+    width: 500px;
+}
+.hi{
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+}
+.name {
+    font-weight: 750;
+    font-size: 60px;
+    margin: 0;
+    font-style: italic;
+}
+.grt-des {
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+    margin-top: 10px;
+}
+.about {
+    margin: 130px;
+    border-radius: 20px;
+    background-color: #fff8f3;
+}
+.sec-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 130px;
+    margin: 0;
+}
+.about-des {
+    margin-top: 10px;
+    padding: 70px;
+    padding-top: 5px;
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+}
