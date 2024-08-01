@@ -1,6 +1,10 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+main {
+    max-width: 1150;
+    margin: 0 auto;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -95,7 +99,6 @@ header {
 }
 .info-section {
     display: flex;
-    justify-content: space-around;
     padding: 0 50px 70px 50px;
     align-content: center;
     font-size: 30px;
@@ -107,7 +110,6 @@ header {
 }
 .used-container {
     display: flex;
-    justify-content: space-around;
     margin: 0 100px;
 }
 .used {
@@ -130,7 +132,6 @@ header {
 }
 .edu-cont {
     display: flex;
-    justify-content: space-around;
     margin: 0 100px;
     gap: 50px;
 }
@@ -156,7 +157,6 @@ header {
     background-color: #fff0e4;
     display: flex;
     gap: 70px;
-    justify-content: space-around;
     justify-content: center;
     padding: 100px 50px;
     border-radius: 20px;
