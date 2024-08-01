@@ -91,30 +91,20 @@ header {
 }
 .about-des {
     margin-top: 10px;
-    padding: 70px;
+    padding: 80px;
     padding-top: 5px;
     padding-bottom: 90px;
     font-size: 18px;
     color: rgb(66, 66, 66);
 }
-.info-section {
-    display: flex;
-    padding: 0 50px 70px 50px;
-    align-content: center;
-    font-size: 30px;
-    align-items: center;
-    font-weight: 500;
-}
-.cell {
-    text-align: center;
-}
 .used-container {
     display: flex;
+    gap: 25px;
     margin: 0 100px;
 }
 .used {
     padding: 30px;
-    margin: 40px 20px;
+    margin: 40px 0px;
     background-color: white;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
