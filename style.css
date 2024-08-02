@@ -159,13 +159,15 @@ header {
     padding: 20px;
     border: solid white;
     border-radius: 10px;
+    display: block;
 }
 .message {
     margin-bottom: 30px;
     padding: 20px;
     border: solid white;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     border-radius: 10px;
+    display: block;
 }
 .connect-title {
     font-size: 40px;
